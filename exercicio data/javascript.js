@@ -45,5 +45,5 @@ function Mostrar(){
       break;
   }
 
-  mostradata.innerHTML = (`Hoje é: ${dia} ${mes} ${ano}`)
+  mostradata.innerHTML = (`Hoje é: ${dia}/${mes}/${ano}`)
 }
