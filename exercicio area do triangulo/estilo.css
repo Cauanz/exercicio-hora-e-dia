@@ -1,0 +1,17 @@
+body {
+  background: rgb(17, 95, 212);
+ color: black;
+ text-align: center;
+ font-family: sans-serif
+}
+
+div {
+  background: white;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+  width: 300px;
+  border-radius: 10px;
+}
