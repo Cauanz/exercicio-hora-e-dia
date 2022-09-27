@@ -1,0 +1,58 @@
+body {
+  background: rgb(17, 95, 212);
+ color: black;
+ text-align: center;
+ font-family: sans-serif
+}
+
+div {
+  background: white;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+  width: 300px;
+  border-radius: 10px;
+}
+
+section{
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 100px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+}
+
+input[type=button] {
+  color: rgb(255, 255, 255);
+  background-color: rgb(15, 77, 170);
+  border: none;
+  margin: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+  padding: 10px;
+  border-radius: 4px;
+}
+
+input[type=button]:active {
+  color: rgb(0, 0, 0);
+  background-color: rgb(16, 95, 212);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
